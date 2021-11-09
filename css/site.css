@@ -9,13 +9,14 @@
 }
 
 .socialmedias .grid {
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
 	text-align: center;
 	height: 60vh;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: auto;
+	grid-template-columns: auto;
+	grid-template-rows: repeat(3, 1fr);
+	
 	row-gap: 10%;
 	column-gap: 10%;
 	align-items: center;
@@ -73,29 +74,8 @@
 @media (min-width: 640px) and (min-height: 360px ) {
 
 	.socialmedias .grid {
-		grid-template-columns: repeat(2, 1fr);
-		row-gap: 1px;
-		column-gap: 10%;
-	}
-
-	.iconmedia {
-		font-size: 4em;
-	}
-
-}
-
-@media (min-width: 768px) and (min-height: 1024px ) {
-
-	.iconmedia {
-		font-size: 6em;
-	}
-
-}
-
-@media (min-width: 900px) {
-
-	.iconmedia {
-		font-size: 8em;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: auto;
 	}
 
 }
