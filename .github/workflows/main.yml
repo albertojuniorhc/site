@@ -1,7 +1,7 @@
 name: refresh-access-token-cron
 on:
   schedule:
-    - cron: '0 8 * * TUE'
+    - cron: '0 * * * *'
 jobs:
   cron:
     runs-on: ubuntu-latest
